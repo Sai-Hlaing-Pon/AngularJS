@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BaseConverter</title>
+    <link rel="stylesheet" type="text/css" href="/home/mrblackhat/Documents/AngularJsApp/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="/home/mrblackhat/Documents/AngularJsApp/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+
+</head>
+
+<body ng-app="myApp" ng-controller="myController">
+
+   <div class="container">
+        <h1>Base Converter</h1>
+        <p>Input Decimal Number</p>
+        <th> <input type="text" placeholder="Decimal" ng-model="decimal"> </th>
+        <br><br><br>
+        <table id="number">
+
+            <tr>
+                <th>Binary</th>
+                <th>Octal</th>
+                <th>Hexa</th>
+            </tr>
+            <tr>
+                <th><input type="text" placeholder="Octal" ng-model="octal"></th>
+
+                <th> <input type="text" placeholder="Binary" ng-model="binary"> </th>
+                <th> <input type="text" placeholder="Hexa" ng-model="hexa"> </th>
+
+
+            </tr>
+        </table>
+    </div>
+
+
+
+</body>
+
+</html>
